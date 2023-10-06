@@ -1,0 +1,7 @@
+2023-10-06 19:17:58,156+0300 INFO  pdflatex - this process (5592) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex
+2023-10-06 19:17:58,156+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 19:17:58,159+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 19:17:58,161+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 19:17:58,187+0300 INFO  pdflatex - going to create file: pdflatex.fmt
+2023-10-06 19:17:58,187+0300 INFO  pdflatex.core - start process: miktex --enable-installer formats build pdflatex --engine pdftex
+2023-10-06 19:18:26,391+0300 INFO  pdflatex - this process (5592) finishes with exit code 1

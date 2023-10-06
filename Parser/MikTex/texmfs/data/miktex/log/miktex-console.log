@@ -1,0 +1,47 @@
+2023-10-06 18:34:16,449+0300 INFO  main - starting: MiKTeX Console 4.9 (MiKTeX 23.10 Portable)
+2023-10-06 18:34:16,457+0300 ERROR miktex-console.core - Something is wrong with the PATH:
+2023-10-06 18:34:16,457+0300 ERROR miktex-console.core - C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Users\andre\.cargo\bin;C:\Users\andre\AppData\Local\Microsoft\WindowsApps;;C:\Users\andre\AppData\Local\Programs\Microsoft VS Code\bin
+2023-10-06 18:34:17,795+0300 WARN  miktex-console.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2023-10-06 18:34:17,795+0300 WARN  miktex-console.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2023-10-06 18:34:18,042+0300 INFO  miktex-console.core - start process: miktex fontmaps configure
+2023-10-06 18:34:27,616+0300 INFO  mainwindow - checking for updates...
+2023-10-06 18:34:27,625+0300 INFO  miktex-console.packagemanager - searching for updateable packages
+2023-10-06 18:34:27,627+0300 INFO  miktex-console.packagemanager - going to download https://api2.miktex.org/hello
+2023-10-06 18:34:27,898+0300 INFO  miktex-console.packagemanager - going to download https://api2.miktex.org/repositories?&releaseState=Stable&orderBy=ranking&take=1&onlySecure=true
+2023-10-06 18:34:27,937+0300 INFO  mainwindow - downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/miktex-zzdb3-2.9.tar.lzma...
+2023-10-06 18:34:28,129+0300 INFO  miktex-console.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/miktex-zzdb3-2.9.tar.lzma
+2023-10-06 18:34:28,327+0300 INFO  mainwindow - 1.68 MB, 68.37 Mbit/s
+2023-10-06 18:34:30,430+0300 INFO  mainwindow - updating package manifests (C:\Users\andre\Desktop\MikTex\texmfs\install\miktex/config\package-manifests.ini)...
+2023-10-06 18:34:31,970+0300 INFO  mainwindow - installed 6700 package manifests
+2023-10-06 18:34:31,970+0300 INFO  mainwindow - visiting repository https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/...
+2023-10-06 18:34:31,970+0300 INFO  mainwindow - repository type: remote package repository
+2023-10-06 18:34:31,971+0300 INFO  mainwindow - loading package repository manifest...
+2023-10-06 18:34:31,972+0300 INFO  mainwindow - downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/miktex-zzdb1-2.9.tar.lzma...
+2023-10-06 18:34:31,972+0300 INFO  miktex-console.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/miktex-zzdb1-2.9.tar.lzma
+2023-10-06 18:34:31,985+0300 INFO  mainwindow - 0.33 MB, 222.71 Mbit/s
+2023-10-06 18:34:33,114+0300 WARN  miktex-console.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2023-10-06 18:34:33,114+0300 WARN  miktex-console.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2023-10-06 18:34:36,619+0300 INFO  mainwindow - package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 18:34:38,113+0300 INFO  mainwindow - found 0 updates
+2023-10-06 18:34:38,142+0300 ERROR miktex-console.core - Something is wrong with the PATH:
+2023-10-06 18:34:38,142+0300 ERROR miktex-console.core - C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Users\andre\.cargo\bin;C:\Users\andre\AppData\Local\Microsoft\WindowsApps;;C:\Users\andre\AppData\Local\Programs\Microsoft VS Code\bin
+2023-10-06 18:34:41,460+0300 WARN  miktex-console.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2023-10-06 18:34:41,460+0300 WARN  miktex-console.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2023-10-06 18:34:53,581+0300 INFO  miktex-console.core - start process: cmd
+2023-10-06 18:34:59,411+0300 INFO  main - finishing with exit code 0
+2023-10-06 18:35:05,589+0300 INFO  main - starting: MiKTeX Console 4.9 (MiKTeX 23.10 Portable)
+2023-10-06 18:35:05,597+0300 ERROR miktex-console.core - Something is wrong with the PATH:
+2023-10-06 18:35:05,597+0300 ERROR miktex-console.core - C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Users\andre\.cargo\bin;C:\Users\andre\AppData\Local\Microsoft\WindowsApps;;C:\Users\andre\AppData\Local\Programs\Microsoft VS Code\bin
+2023-10-06 18:35:06,900+0300 WARN  miktex-console.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2023-10-06 18:35:06,901+0300 WARN  miktex-console.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2023-10-06 18:35:07,127+0300 INFO  miktex-console.core - start process: miktex fontmaps configure
+2023-10-06 18:36:21,851+0300 INFO  main - finishing with exit code 0
+2023-10-06 18:59:16,653+0300 INFO  main - starting: MiKTeX Console 4.9 (MiKTeX 23.10 Portable)
+2023-10-06 18:59:16,661+0300 ERROR miktex-console.core - Something is wrong with the PATH:
+2023-10-06 18:59:16,661+0300 ERROR miktex-console.core - C:\Users\andre\Desktop\RO2030\CVMaker\Parser\target\debug\deps;C:\Users\andre\Desktop\RO2030\CVMaker\Parser\target\debug;C:\Users\andre\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\andre\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Users\andre\.cargo\bin;C:\Users\andre\AppData\Local\Microsoft\WindowsApps;;C:\Users\andre\AppData\Local\Programs\Microsoft VS Code\bin
+2023-10-06 18:59:17,957+0300 WARN  miktex-console.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2023-10-06 18:59:17,957+0300 WARN  miktex-console.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2023-10-06 18:59:18,190+0300 INFO  miktex-console.core - start process: miktex fontmaps configure
+2023-10-06 19:15:18,814+0300 WARN  miktex-console.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2023-10-06 19:15:18,815+0300 WARN  miktex-console.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2023-10-06 19:15:57,646+0300 INFO  main - finishing with exit code 0
