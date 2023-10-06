@@ -1,11 +1,14 @@
 use latex::{DocumentClass, Element, Document, Section, Align};
+use std::fs::File;
+use std::io::Write;
+use std::process::Command;
 
 fn main() 
 {
     let mut doc = Document::new(DocumentClass::Article);
 
     doc.preamble.title("CV");
-    dc.preamble.author("Name");
+    doc.preamble.author("Name");
 
     doc.push(Element::TitlePage)
         .push(Element::ClearPage)
@@ -24,6 +27,24 @@ fn main()
 
     doc.push(section_2);
 
-    let rendered = latex::prin(&doc)?;
+    let rendered = latex::print(&doc).unwrap();
 
+    let mut source_path = project_root::get_project_root().unwrap();
+    source_path.push("MikTex");
+    source_path.push("CV.tex");
+    let mut f = File::create(source_path.clone()).unwrap();
+    write!(f,"{}",rendered).unwrap();
+
+    let mut path = project_root::get_project_root().unwrap();
+    path.push("MikTex/texmfs/install/miktex/bin/x64/pdftex.exe");
+
+    let output_path_helper = String::from("--output-directory==");
+    let output_path = output_path_helper + &project_root::get_project_root().unwrap().into_os_string().into_string().unwrap();
+    let exit_status = Command::new(path)
+    .arg(source_path.clone()).
+    arg(output_path).status().unwrap();
+
+
+    std::fs::remove_file(source_path).unwrap();
+    assert!(exit_status.success());
 }

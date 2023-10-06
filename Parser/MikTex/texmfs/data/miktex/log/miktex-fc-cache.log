@@ -1,0 +1,12 @@
+2023-10-06 18:33:23,012+0300 INFO  miktex-fc-cache - this process (11864) started by miktex in directory C:\Users\andre\Desktop with command line: miktex-fc-cache --verbose --miktex-disable-maintenance --miktex-disable-diagnose
+2023-10-06 18:33:23,012+0300 INFO  miktex-fc-cache - running on Windows 10.0.19045
+2023-10-06 18:33:25,779+0300 INFO  miktex-fc-cache - this process (11864) finishes with exit code 0
+2023-10-06 18:34:19,061+0300 INFO  miktex-fc-cache - this process (15656) started by miktex in directory C:\Users\andre\Desktop\MikTex with command line: miktex-fc-cache --miktex-disable-maintenance --miktex-disable-diagnose
+2023-10-06 18:34:19,061+0300 INFO  miktex-fc-cache - running on Windows 10.0.19045
+2023-10-06 18:34:19,176+0300 INFO  miktex-fc-cache - this process (15656) finishes with exit code 0
+2023-10-06 18:35:07,998+0300 INFO  miktex-fc-cache - this process (12684) started by miktex in directory C:\Users\andre\Desktop\MikTex with command line: miktex-fc-cache --miktex-disable-maintenance --miktex-disable-diagnose
+2023-10-06 18:35:07,998+0300 INFO  miktex-fc-cache - running on Windows 10.0.19045
+2023-10-06 18:35:08,092+0300 INFO  miktex-fc-cache - this process (12684) finishes with exit code 0
+2023-10-06 18:59:19,097+0300 INFO  miktex-fc-cache - this process (9960) started by miktex in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: miktex-fc-cache --miktex-disable-maintenance --miktex-disable-diagnose
+2023-10-06 18:59:19,097+0300 INFO  miktex-fc-cache - running on Windows 10.0.19045
+2023-10-06 18:59:19,429+0300 INFO  miktex-fc-cache - this process (9960) finishes with exit code 0

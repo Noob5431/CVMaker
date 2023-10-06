@@ -1,0 +1,17 @@
+2023-10-06 18:33:26,544+0300 INFO  initexmf - this is MiKTeX Configuration Utility 5.4 (MiKTeX 23.10 Portable)
+2023-10-06 18:33:26,544+0300 INFO  initexmf - this process (12436) started by miktex-portable in directory C:\Users\andre\Desktop with command line: initexmf --default-paper-size=A4 --disable-installer --verbose
+2023-10-06 18:33:26,544+0300 INFO  initexmf - Operating on the private (per-user) MiKTeX setup
+2023-10-06 18:33:26,607+0300 INFO  initexmf - this process (12436) finishes with exit code 0
+2023-10-06 18:33:26,907+0300 INFO  initexmf - this is MiKTeX Configuration Utility 5.4 (MiKTeX 23.10 Portable)
+2023-10-06 18:33:26,908+0300 INFO  initexmf - this process (9292) started by miktex-portable in directory C:\Users\andre\Desktop with command line: initexmf --set-config-value=[MPM]AutoInstall=1 --disable-installer --verbose
+2023-10-06 18:33:26,908+0300 INFO  initexmf - Operating on the private (per-user) MiKTeX setup
+2023-10-06 18:33:26,908+0300 INFO  initexmf - Setting config value: [MPM]AutoInstall=1
+2023-10-06 18:33:26,972+0300 INFO  initexmf - this process (9292) finishes with exit code 0
+2023-10-06 18:33:33,209+0300 INFO  initexmf - this is MiKTeX Configuration Utility 5.4 (MiKTeX 23.10 Portable)
+2023-10-06 18:33:33,209+0300 INFO  initexmf - this process (3356) started by miktex-portable in directory C:\Users\andre\Desktop with command line: initexmf --report --disable-installer --verbose
+2023-10-06 18:33:33,210+0300 INFO  initexmf - Operating on the private (per-user) MiKTeX setup
+2023-10-06 18:33:33,217+0300 ERROR initexmf.core - Something is wrong with the PATH:
+2023-10-06 18:33:33,217+0300 ERROR initexmf.core - C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Users\andre\.cargo\bin;C:\Users\andre\AppData\Local\Microsoft\WindowsApps;;C:\Users\andre\AppData\Local\Programs\Microsoft VS Code\bin
+2023-10-06 18:33:33,227+0300 ERROR initexmf.core - Something is wrong with the PATH:
+2023-10-06 18:33:33,227+0300 ERROR initexmf.core - C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Users\andre\.cargo\bin;C:\Users\andre\AppData\Local\Microsoft\WindowsApps;;C:\Users\andre\AppData\Local\Programs\Microsoft VS Code\bin
+2023-10-06 18:33:33,301+0300 INFO  initexmf - this process (3356) finishes with exit code 0

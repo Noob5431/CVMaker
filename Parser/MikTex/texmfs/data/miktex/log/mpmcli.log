@@ -1,0 +1,6 @@
+2023-10-06 18:33:14,661+0300 INFO  mpmcli - this is mpmcli 4.4 (MiKTeX 23.10 Portable)
+2023-10-06 18:33:14,662+0300 INFO  mpmcli - this process (6684) started by 'miktex-portable' with command line: mpm --register-components --verbose
+2023-10-06 18:33:14,662+0300 INFO  mpmcli - Operating on the private (per-user) MiKTeX setup
+2023-10-06 18:33:14,723+0300 WARN  mpmcli.core - still open: C:\Users\andre\Desktop\MikTex\texmfs/config\fontconfig\config\fonts.conf
+2023-10-06 18:33:14,723+0300 WARN  mpmcli.core - still open: C:\Users\andre\Desktop\MikTex\texmfs\install\fontconfig\config\fonts.conf.in
+2023-10-06 18:33:14,724+0300 INFO  mpmcli - this process (6684) finishes with exit code 0

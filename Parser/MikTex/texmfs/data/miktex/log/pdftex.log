@@ -1,0 +1,15 @@
+2023-10-06 19:35:02,302+0300 INFO  pdftex - this process (3536) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdftex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 19:35:02,302+0300 INFO  pdftex - running on Windows 10.0.19045
+2023-10-06 19:35:02,305+0300 INFO  pdftex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 19:35:02,306+0300 INFO  pdftex - allowing known shell commands
+2023-10-06 19:35:02,315+0300 INFO  pdftex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 19:37:07,920+0300 INFO  pdftex - this process (6304) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdftex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 19:37:07,920+0300 INFO  pdftex - running on Windows 10.0.19045
+2023-10-06 19:37:07,923+0300 INFO  pdftex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 19:37:07,924+0300 INFO  pdftex - allowing known shell commands
+2023-10-06 19:37:07,933+0300 INFO  pdftex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 19:38:25,971+0300 INFO  pdftex - this process (3844) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdftex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 19:38:25,972+0300 INFO  pdftex - running on Windows 10.0.19045
+2023-10-06 19:38:25,974+0300 INFO  pdftex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 19:38:25,975+0300 INFO  pdftex - allowing known shell commands
+2023-10-06 19:38:25,985+0300 INFO  pdftex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
