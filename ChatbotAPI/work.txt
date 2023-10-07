@@ -1,0 +1,1 @@
+Write a short description (maximum 3 lines) to be used in a CV, from the following description of an work experience (also write a ~ at the beginning of each line):

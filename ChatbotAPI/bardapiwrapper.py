@@ -1,30 +1,44 @@
 from bardapi import Bard 
-
 import os
-
 import re
 
-os.environ["_BARD_API_KEY"] = "bwgpTnZFjZDtLeL1ExJjOb-rOc4i0dubgyL7Z-_VLnzPE7U7z2YxrmQqfQgRp3kYTXWU5Q."
+def askBard (choice,input):
+  os.environ["_BARD_API_KEY"] = "bwgpThdVSUgQPwFjw6KnCRPuFoUpvK3cnuft_UJLoe65SRwoUXBBnj2fppnJlSWtscvZZg."
 
-message = input("")  
+  choice = 0 # 0 - work experience, 1 - project experience, 2 - extra curricular
 
-def find_strings(text):
-  """Finds all strings in a text that start with a • and end before going to the next line.
+  if (choice == 0):
+    f = open("work.txt", "r")
 
-  Args:
-    text: A string.
+  if (choice == 1):
+    f = open("project.txt", "r")
 
-  Returns:
-    A list of strings.
-  """
+  if (choice == 2):
+    f = open("extrac.txt", "r")
 
-  strings = []
-  for match in re.finditer(r"\•(.*?)\n", text):
-    strings.append(match.group(1))
+  prompt = f.read()
+
+  input = prompt + input
+
+  def find_strings(text):
+    """Finds all strings in a text that start with a • and end before going to the next line.
+
+    Args:
+      text: A string.
+
+    Returns:
+      A list of strings.
+    """
+
+    strings = []
+    for match in re.finditer(r"\~(.*?)\n",text):
+      strings.append(match.group(1))
+    return strings
+
+  text = (Bard().get_answer(str(input))['content'])
+
+  text=text.replace("*","")
+
+  strings = find_strings(text)
+
   return strings
-
-text = (Bard().get_answer(str(message))['content'])
-
-strings = find_strings(text)
-
-print(strings)
