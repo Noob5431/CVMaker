@@ -1,0 +1,23 @@
+{
+"Name" : "Andrei Buscan",
+"PhoneNumber" : "12345678",
+"City" : "Bucharest",
+"EmailAddress" : "email@address.com",
+"UniversityName" : ["UPB", "UPB"],
+"FieldOfStudy" : ["Masters in Computer Science", "Bachelors in Computer Science"],
+"StartDate" : ["2023", "2020"],
+"EndDate" : ["2025", "2023"],
+"TechnicalSkills" : "C, C++, Rust, Python",
+"SoftSkills" : "Leadership, Communication",
+"Workplace" : ["Google", "Microsoft"],
+"WorkCity" : ["Mountain View", "Bucharest"],
+"WorkStart" : ["2015", "2010"],
+"WorkEnd" : ["2020", "2015"],
+"RoleName" : ["Senior Software Developer", "Software Developer"],
+"WorkDescription" : ["dgkerpg ekope kwrqw[pt opkeg pfksdpaog gjreg p[kdsgk ewtjdopds eopddsfpj",
+"safjsapiogj jegoiewjgoie fpodsjgpoj wegtjewio pejwtiopwjepo jobnhfdgjdsopjeowej ewpgjewp"],
+"ProjectName" : ["Latex Parser", "Video Game"],
+"ProjectDescription" : ["asgeghrtgerffhrekjpr pojkgtporejepw tpojeroptewj opqwt nptejwptgorjepo qwpoirtwetpogewn poewnp nptogewoptew opnewtgoewntpoewnroepwn poinrepon wepowe",
+"lsd[ogej wejgiopejh iopwjio hriogewig iolnjfiodsngion oigbhneroibn iowebgoreb iowbgoirebhoiwerb iwoebgoe"],
+"ExtraActivity" : ["Volunteer Assistan Teacher", "CoderDojo Mentor"]
+}

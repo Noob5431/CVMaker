@@ -495,3 +495,45 @@
 2023-10-07 11:41:10,215+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
 2023-10-07 11:41:10,215+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
 2023-10-07 11:41:12,301+0300 INFO  pdflatex - this process (9924) finishes with exit code 1
+2023-10-07 15:11:55,566+0300 INFO  pdflatex - this process (21320) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:11:55,567+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-07 15:11:55,569+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-07 15:11:55,571+0300 INFO  pdflatex - allowing known shell commands
+2023-10-07 15:11:55,582+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:11:55,582+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:11:58,831+0300 INFO  pdflatex - this process (21320) finishes with exit code 1
+2023-10-07 15:13:36,735+0300 INFO  pdflatex - this process (4208) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:13:36,735+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-07 15:13:36,738+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-07 15:13:36,740+0300 INFO  pdflatex - allowing known shell commands
+2023-10-07 15:13:36,749+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:13:36,749+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:13:39,021+0300 INFO  pdflatex - this process (4208) finishes with exit code 1
+2023-10-07 15:13:58,071+0300 INFO  pdflatex - this process (17448) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:13:58,071+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-07 15:13:58,074+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-07 15:13:58,076+0300 INFO  pdflatex - allowing known shell commands
+2023-10-07 15:13:58,085+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:13:58,085+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:13:59,911+0300 INFO  pdflatex - this process (17448) finishes with exit code 1
+2023-10-07 15:15:40,677+0300 INFO  pdflatex - this process (19656) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:15:40,677+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-07 15:15:40,680+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-07 15:15:40,682+0300 INFO  pdflatex - allowing known shell commands
+2023-10-07 15:15:40,692+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:15:40,692+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:15:43,209+0300 INFO  pdflatex - this process (19656) finishes with exit code 1
+2023-10-07 15:16:57,160+0300 INFO  pdflatex - this process (15448) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:16:57,160+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-07 15:16:57,163+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-07 15:16:57,165+0300 INFO  pdflatex - allowing known shell commands
+2023-10-07 15:16:57,174+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:16:57,174+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:16:59,053+0300 INFO  pdflatex - this process (15448) finishes with exit code 1
+2023-10-07 15:17:47,002+0300 INFO  pdflatex - this process (13960) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:17:47,002+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-07 15:17:47,005+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-07 15:17:47,007+0300 INFO  pdflatex - allowing known shell commands
+2023-10-07 15:17:47,016+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:17:47,016+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 15:17:48,895+0300 INFO  pdflatex - this process (13960) finishes with exit code 1
