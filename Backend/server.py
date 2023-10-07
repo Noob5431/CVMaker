@@ -1,11 +1,22 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 
-#from .ChatbotAPI.another_script import process_name
+#change path to the site folder  if needed ( site folder )
+app = Flask(__name__, website='../Website')
 
-app = Flask(__name__)
+#access site 
+@app.route('/')
+def main_page():
+    #change file name
+    #change return type if not static for the html
+    return render_template("site.html")        
 
+# /questionRequest is the page you want to insert to change with path
+@app.route('/questionRequest', method=['GET'])
+def questionRequest():
+    #question function
+    question="string"
+    return render_template("questionRequest.html",question)
 
-@app.route('/process',method=['POST'])
 
 def addToCV(data):
     print("works")
@@ -13,25 +24,31 @@ def addToCV(data):
     #else add to CV
     #based on data add to correct prompt
 
-def process():
+# /userVommit is the page you want to extract from change with path
+@app.route('/userVommit' , method=['POST'])
+def userVommit():
     unprocessd_data=request.get_json()
 
-    #send data to chat chose the correct one
-    #
+    #send data to chat ( change name as needed )
     #process_name(unprocessd_data)
-    #data=process_name(unprocessd_data)
-    #
-
-    #shove data into cv based on the type
-    #addToCV(data)
+    data=bardFunc(unprocessd_data)
     
-    #ask next question 
-    next_question=getQuestion()
+
+    addToCV(data)
+    
+    #ask next question prob not needed
+    #next_question=getQuestion()
 
     #send next question or end chat
-    return jsonify(next_question)
-
-
+    """
+    if next_question!= '\n' :
+        return jsonify(next_question)
+    else:
+        print('send pdf')
+    """
 
 if __name__ == '__main__':
     app.run()
+    
+    
+    
