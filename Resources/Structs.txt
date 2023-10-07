@@ -1,0 +1,23 @@
+struct Packet
+{
+	string Name;
+	string PhoneNumber;
+	string City;
+	string EmailAddress;
+	vector<string> UniversityName;
+	vector<string> FieldOfStudy;
+	vector<string> StartDate;
+	vector<string> EndDate;
+	string TechnicalSkills;
+	string SoftSkills;
+	vector<string> Workplace;
+	vector<string> WorkCity;
+	vector<string> WorkStart;
+	vector<string> WorkEnd;
+	vector<string> RoleName;
+	vector<string> WorkDescription;
+	vector<string> ProjectName;
+	vector<string> ProjectDescription;
+	vector<string> ExtraActivity;
+
+};

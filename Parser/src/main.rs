@@ -1,7 +1,31 @@
-use latex::{DocumentClass, Element, Document, Section, Align, PreambleElement};
-use std::fs::File;
+use std::fs::{File, self};
 use std::io::Write;
 use std::process::Command;
+use serde::{Deserialize, Serialize};
+
+#[derive(Serialize, Deserialize)]
+struct Packet
+{
+    Name : String,
+    PhoneNumber : String,
+    City : String,
+    EmailAddress : String,
+    UniversityName : Vec<String>,
+    FieldOfStudy : Vec<String>,
+    StartDate : Vec<String>,
+    EndDate : Vec<String>,
+    TechnicalSkills : String,
+    SoftSkills : String,
+    Workplace : Vec<String>,
+    WorkCity : Vec<String>,
+    WorkStart : Vec<String>,
+    WorkEnd : Vec<String>,
+    RoleName : Vec<String>,
+    WorkDescription : Vec<String>,
+    ProjectName : Vec<String>,
+    ProjectDescription : Vec<String>,
+    ExtraActivity : Vec<String>,
+}
 
 fn main() 
 {
@@ -26,19 +50,23 @@ fn main()
     let mut project_name : String = "Project1".to_string();
     let mut project_description : String = "sajfpasj pjsdpogj etjeiotj haiohioahfs hjweiotehoig ihoasfiohafoi eiotheioh klsnalfka wlhliqrhior hioahfgsoidg tehwioth fdshogsdhw owirhqoi hgiodshgeoh io oehwtioewhig heiogthwow hqwoihroqirh paojfo".to_string();
     let mut extra_activity : String = "Write blog posts about best practices".to_string();
+    //read json packet
+    let json_path : String = "default".to_string();
+    let json_code = fs::read_to_string(json_path).expect("could not read file");
 
+    let packet : Packet = serde_json::from_str(&json_code).unwrap();
 
     //generate latex code
     latex_code.push_str(&("\\documentclass{resume}
         \\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry}
         \\newcommand{\\tab}[1]{\\hspace{.2667\\textwidth}\\rlap{#1}}
         \\newcommand{\\itab}[1]{\\hspace{0em}\\rlap{#1}}
-        \\name{".to_string() + &name + "}
-        \\address{" + &phone_number + " \\\\ " + &city + "}
-        \\address{\\href{mailto:" + &email_address + "}{" + &email_address + "}}
+        \\name{".to_string() + &packet.Name + "}
+        \\address{" + &packet.PhoneNumber + " \\\\ " + &packet.City + "}
+        \\address{\\href{mailto:" + &packet.EmailAddress + "}{" + &packet.EmailAddress + "}}
         \\begin{document}
         \\begin{rSection}{Education}
-        {\\bf " + &field_of_study + "}, " + &university_name + "\\hfil {" + &start_date + " - " + &end_date + "}
+        {\\bf " + &field_of_study + "}, " + &university_name + "\\hfill {" + &start_date + " - " + &end_date + "}
         \\end{rSection}
         \\begin{rSection}{SKILLS}
         \\begin{tabular}{ @{} >{\\bfseries}l @{\\hspace{6ex}} l }
@@ -64,49 +92,7 @@ fn main()
         \\end{itemize}
         \\end{rSection}
         \\end{document}"));
-    //latex formatting
-    /*
-    let mut doc = Document::new(DocumentClass::Other("resume".to_string()));
-
-    //preamble
-    doc.preamble.push(PreambleElement::UserDefined
-        (("\\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry}")
-        .to_string()));
-    doc.preamble.push(PreambleElement::UserDefined
-        (("\\newcommand{\\tab}[1]{\\hspace{.2667\\textwidth}\\rlap{#1}}")
-        .to_string()));
-    doc.preamble.push(PreambleElement::UserDefined
-        (("\\newcommand{\\itab}[1]{\\hspace{0em}\\rlap{#1}}")
-        .to_string()));
-    doc.preamble.push(PreambleElement::UserDefined
-        (("\\name{".to_string() + &name + "}")
-        .to_string()));
-    doc.preamble.push(PreambleElement::UserDefined
-        (("\\address{".to_string() + &phone_number + " \\\\ " + &city + "}")
-        .to_string()));
-    doc.preamble.push(PreambleElement::UserDefined
-        (("\\address{\\href{mailto:".to_string() + &email_address + "}{" + 
-        &email_address + "}}")
-        .to_string()));
     
-    //document start
-    doc.push("\\begin{rSection}{Education}");
-    doc.push(Element::UserDefined("{\\bf".to_string() + &field_of_study + "}, " 
-    + &university_name + "\\hfill {" + &start_date + " - " + &end_date));
-    doc.push(Element::UserDefined("\\end{rSection".to_string()));
-
-    doc.push(Element::UserDefined("\\begin{rSection}{SKILLS".to_string()));
-    doc.push(Element::UserDefined("\\begin{tabular}{ @{} >{\\bfseries}l 
-    @{\\hspace{6ex}} l }".to_string()));
-    doc.push(Element::UserDefined("Technical Skills & ".to_string() + &skills));
-    doc.push(Element::UserDefined("Soft Skills & ".to_string() + &soft_skills));
-    doc.push(Element::UserDefined("\\end{tabular}\\\\".to_string()));
-    doc.push(Element::UserDefined("\\end{rSection}".to_string()));
-    doc.push(Element::UserDefined("\\begin{rSection}{EXPERIENCE}".to_string()));
-        */
-    //get latex code as string
-    //let rendered = latex::print(&doc).unwrap();
-
     //get path of created tex file
     let mut source_path = project_root::get_project_root().unwrap();
     source_path.push("MikTex");

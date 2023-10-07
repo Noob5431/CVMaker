@@ -1,0 +1,28 @@
+Name ("what is your name")
+Phone Number ("what is your phone number")
+City ("in what city do you live")
+Email Address ("what is your email address")
+
+University Count ("do you have a masters degree" daca are master sunt 2 chestii aici)
+University Name ("what university have you attended or are attendindg")
+Field of study ("what are you studying or have studied")
+Start Date ("in what year did you start your studies")
+End Date ("when have you finished your studies or what is your expected graduation year")
+
+Technical Skills ("what technical skills do you have")
+Soft Skills ("what soft skills do you have")
+
+Work Count ("how many jobs have you had")
+Workplace ("where did you work at")
+Work City ("in what city did you work at")
+Work start ("when did you start working at this company")
+Work end ("when did you end working at this company")
+Role name ("what was your role")
+Work description ("describe the work you did")
+
+Project Count ("how many projects do you want to add to your cv")
+Project name ("what is the name of your project")
+Project description ("describe the work you did on the project")
+
+ExtraActivity Count ("how many extracurricular activities do you want to add to your cv")
+Extracurricular activity ("describe an extracurricular activity") 
