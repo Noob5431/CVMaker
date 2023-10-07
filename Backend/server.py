@@ -1,7 +1,15 @@
 from flask import Flask, request, jsonify, render_template
 
-#change path to the site folder  if needed ( site folder )
-app = Flask(__name__, website='../Website')
+import os
+template_dir = os.path.dirname(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+template_dir = os.path.join(template_dir, 'website')
+
+app = Flask(__name__, template_folder=template_dir)
+
+
+
+#change path to the site folder  if needed ( site folder ) if the whole os thingh no good
+#app = Flask(__name__, website='../Website')
 
 #access site 
 @app.route('/')
@@ -46,6 +54,7 @@ def userVommit():
     else:
         print('send pdf')
     """
+    return render_template("questionRequest.html")
 
 if __name__ == '__main__':
     app.run()
