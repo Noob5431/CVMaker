@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" contents="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CHATBOT</title>
+        <style>
+            /* Add your CSS styles here */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+    
+            .chat-container {
+                max-width: 400px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            }
+    
+            .message {
+                padding: 10px;
+                margin: 10px 0;
+                border-radius: 5px;
+            }
+    
+            .user-message {
+                background-color: #007bff;
+                color: #fff;
+                text-align: right;
+            }
+    
+            .bot-message {
+                background-color: #e5e5ea;
+                color: #000;
+                text-align: left;
+            }
+    
+            #input-text {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                margin-top: 10px;
+            }
+    
+            #send-button {
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+
+        
+
+        <div class="chat-container">
+            <!-- Chat messages will be displayed here -->
+            <div id="chat-messages"></div>
+            <input type="text" id="input-text" placeholder="Type your message...">
+            <button id="send">Send</button>
+        </div>
+
+        <script>
+            const sendBtn = document.getElementById("send")
+            const input = document.getElementById("input")
+
+            const baseUrl = 'http:/localhost:5500/'
+
+            getBtn.addEventListener('click', getInfo)
+            postBtn.addEventListener('click', postInfo)
+            
+            async function getInfo(e){
+                e.preventDefault()
+                const res = await fetch(baseUrl,
+                {
+                    method: 'GET'
+                })
+                console.log(res)
+                const data = await res.json()
+                input.value = data.info
+            }
+
+            async function postInfo(e){
+                e.preventDefault()
+                if (input.value == ''){ return }
+                const res = await fetch(baseUrl,
+                {
+                    method: 'POST',
+                    headers:{
+                        "Content-Type": 'application/json'
+                    },
+                    body: JSON.stringify({
+                        parcel: input.value
+                    })
+                })
+            }
+        </script>
+    </body>
+</html>
