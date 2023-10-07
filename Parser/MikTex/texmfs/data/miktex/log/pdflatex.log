@@ -5,3 +5,479 @@
 2023-10-06 19:17:58,187+0300 INFO  pdflatex - going to create file: pdflatex.fmt
 2023-10-06 19:17:58,187+0300 INFO  pdflatex.core - start process: miktex --enable-installer formats build pdflatex --engine pdftex
 2023-10-06 19:18:26,391+0300 INFO  pdflatex - this process (5592) finishes with exit code 1
+2023-10-06 23:03:12,993+0300 INFO  pdflatex - this process (16684) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:03:12,993+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:03:12,995+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:03:12,997+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:03:13,007+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:04:29,531+0300 INFO  pdflatex - this process (4740) started by powershell in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64 with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\pdflatex.exe CV.tex
+2023-10-06 23:04:29,531+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:04:29,533+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:04:29,535+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:08:51,043+0300 INFO  pdflatex - this process (5348) started by cmd in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64 with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex
+2023-10-06 23:08:51,043+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:08:51,045+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:08:51,047+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:09:55,336+0300 INFO  pdflatex - this process (5348) finishes with exit code 1
+2023-10-06 23:09:55,338+0300 WARN  pdflatex.core - still open: C:/Users/andre/Desktop/RO2030/CVMaker/Parser/MikTex/CV.tex
+2023-10-06 23:09:58,366+0300 INFO  pdflatex - this process (20848) started by cmd in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64 with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex
+2023-10-06 23:09:58,367+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:09:58,369+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:09:58,371+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:09:58,438+0300 INFO  pdflatex - installing package parskip triggered by tex/latex/parskip\parskip.sty
+2023-10-06 23:09:58,441+0300 INFO  pdflatex.packagemanager - going to download https://api2.miktex.org/hello
+2023-10-06 23:09:58,756+0300 INFO  pdflatex.packagemanager - going to download https://api2.miktex.org/repositories?&releaseState=Stable&orderBy=ranking&take=1&onlySecure=true
+2023-10-06 23:09:58,792+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:09:58,792+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:09:58,792+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:09:59,844+0300 WARN  pdflatex.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2023-10-06 23:09:59,844+0300 WARN  pdflatex.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2023-10-06 23:10:00,260+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:00,260+0300 INFO  pdflatex - mpm: going to download 321741 bytes
+2023-10-06 23:10:00,260+0300 INFO  pdflatex - mpm: going to install 8 file(s) (1 package(s))
+2023-10-06 23:10:01,011+0300 INFO  pdflatex.packagemanager - installing package parskip
+2023-10-06 23:10:01,012+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/parskip.tar.lzma...
+2023-10-06 23:10:01,015+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/parskip.tar.lzma
+2023-10-06 23:10:01,313+0300 INFO  pdflatex - mpm: 0.32 MB, 8.70 Mbit/s
+2023-10-06 23:10:01,324+0300 INFO  pdflatex - mpm: extracting files from parskip.tar.lzma...
+2023-10-06 23:10:02,115+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:10:03,526+0300 INFO  pdflatex - installing package kvoptions triggered by tex/latex/kvoptions\kvoptions.sty
+2023-10-06 23:10:03,527+0300 INFO  pdflatex.packagemanager - going to download https://api2.miktex.org/repositories/03cde9026d1481eb6f8e0f0c200c4e8e
+2023-10-06 23:10:03,757+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:10:03,757+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:10:03,757+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:10:04,142+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:04,143+0300 INFO  pdflatex - mpm: going to download 8196 bytes
+2023-10-06 23:10:04,143+0300 INFO  pdflatex - mpm: going to install 4 file(s) (1 package(s))
+2023-10-06 23:10:04,891+0300 INFO  pdflatex.packagemanager - installing package kvoptions
+2023-10-06 23:10:04,892+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/kvoptions.tar.lzma...
+2023-10-06 23:10:04,892+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/kvoptions.tar.lzma
+2023-10-06 23:10:04,932+0300 INFO  pdflatex - mpm: 0.01 MB, 1.68 Mbit/s
+2023-10-06 23:10:04,940+0300 INFO  pdflatex - mpm: extracting files from kvoptions.tar.lzma...
+2023-10-06 23:10:05,691+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:10:06,973+0300 INFO  pdflatex - installing package ltxcmds triggered by tex/generic/ltxcmds\ltxcmds.sty
+2023-10-06 23:10:06,973+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:10:06,973+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:10:06,973+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:10:07,341+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:07,341+0300 INFO  pdflatex - mpm: going to download 409074 bytes
+2023-10-06 23:10:07,341+0300 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2023-10-06 23:10:08,070+0300 INFO  pdflatex.packagemanager - installing package ltxcmds
+2023-10-06 23:10:08,071+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/ltxcmds.tar.lzma...
+2023-10-06 23:10:08,071+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/ltxcmds.tar.lzma
+2023-10-06 23:10:08,205+0300 INFO  pdflatex - mpm: 0.41 MB, 24.61 Mbit/s
+2023-10-06 23:10:08,216+0300 INFO  pdflatex - mpm: extracting files from ltxcmds.tar.lzma...
+2023-10-06 23:10:08,983+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:10:10,273+0300 INFO  pdflatex - installing package kvsetkeys triggered by tex/latex/kvsetkeys\kvsetkeys.sty
+2023-10-06 23:10:10,273+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:10:10,273+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:10:10,273+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:10:10,648+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:10,649+0300 INFO  pdflatex - mpm: going to download 3794 bytes
+2023-10-06 23:10:10,649+0300 INFO  pdflatex - mpm: going to install 2 file(s) (1 package(s))
+2023-10-06 23:10:11,422+0300 INFO  pdflatex.packagemanager - installing package kvsetkeys
+2023-10-06 23:10:11,423+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/kvsetkeys.tar.lzma...
+2023-10-06 23:10:11,423+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/kvsetkeys.tar.lzma
+2023-10-06 23:10:11,474+0300 INFO  pdflatex - mpm: 0.00 MB, 0.62 Mbit/s
+2023-10-06 23:10:11,480+0300 INFO  pdflatex - mpm: extracting files from kvsetkeys.tar.lzma...
+2023-10-06 23:10:12,238+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:10:13,687+0300 INFO  pdflatex - installing package infwarerr triggered by tex/generic/infwarerr\infwarerr.sty
+2023-10-06 23:10:13,687+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:10:13,687+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:10:13,687+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:10:14,068+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:14,068+0300 INFO  pdflatex - mpm: going to download 293465 bytes
+2023-10-06 23:10:14,068+0300 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2023-10-06 23:10:14,833+0300 INFO  pdflatex.packagemanager - installing package infwarerr
+2023-10-06 23:10:14,834+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/infwarerr.tar.lzma...
+2023-10-06 23:10:14,834+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/infwarerr.tar.lzma
+2023-10-06 23:10:14,991+0300 INFO  pdflatex - mpm: 0.29 MB, 14.95 Mbit/s
+2023-10-06 23:10:15,000+0300 INFO  pdflatex - mpm: extracting files from infwarerr.tar.lzma...
+2023-10-06 23:10:15,728+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:10:17,044+0300 INFO  pdflatex - installing package kvdefinekeys triggered by tex/generic/kvdefinekeys\kvdefinekeys.sty
+2023-10-06 23:10:17,044+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:10:17,044+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:10:17,044+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:10:17,415+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:17,415+0300 INFO  pdflatex - mpm: going to download 304244 bytes
+2023-10-06 23:10:17,415+0300 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2023-10-06 23:10:18,164+0300 INFO  pdflatex.packagemanager - installing package kvdefinekeys
+2023-10-06 23:10:18,164+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/kvdefinekeys.tar.lzma...
+2023-10-06 23:10:18,165+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/kvdefinekeys.tar.lzma
+2023-10-06 23:10:18,385+0300 INFO  pdflatex - mpm: 0.30 MB, 11.06 Mbit/s
+2023-10-06 23:10:18,395+0300 INFO  pdflatex - mpm: extracting files from kvdefinekeys.tar.lzma...
+2023-10-06 23:10:19,152+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:10:20,553+0300 INFO  pdflatex - installing package pdfescape triggered by tex/generic/pdfescape\pdfescape.sty
+2023-10-06 23:10:20,553+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:10:20,553+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:10:20,554+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:10:20,936+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:20,936+0300 INFO  pdflatex - mpm: going to download 355594 bytes
+2023-10-06 23:10:20,936+0300 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2023-10-06 23:10:21,682+0300 INFO  pdflatex.packagemanager - installing package pdfescape
+2023-10-06 23:10:21,682+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/pdfescape.tar.lzma...
+2023-10-06 23:10:21,682+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/pdfescape.tar.lzma
+2023-10-06 23:10:22,006+0300 INFO  pdflatex - mpm: 0.36 MB, 8.83 Mbit/s
+2023-10-06 23:10:22,013+0300 INFO  pdflatex - mpm: extracting files from pdfescape.tar.lzma...
+2023-10-06 23:10:22,776+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:10:24,158+0300 INFO  pdflatex - installing package hycolor triggered by tex/latex/hycolor\hycolor.sty
+2023-10-06 23:10:24,159+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:10:24,159+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:10:24,159+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:10:24,533+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:24,534+0300 INFO  pdflatex - mpm: going to download 389104 bytes
+2023-10-06 23:10:24,534+0300 INFO  pdflatex - mpm: going to install 6 file(s) (1 package(s))
+2023-10-06 23:10:25,295+0300 INFO  pdflatex.packagemanager - installing package hycolor
+2023-10-06 23:10:25,296+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/hycolor.tar.lzma...
+2023-10-06 23:10:25,296+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/hycolor.tar.lzma
+2023-10-06 23:10:25,532+0300 INFO  pdflatex - mpm: 0.39 MB, 13.19 Mbit/s
+2023-10-06 23:10:25,543+0300 INFO  pdflatex - mpm: extracting files from hycolor.tar.lzma...
+2023-10-06 23:10:26,310+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:10:27,611+0300 INFO  pdflatex - installing package letltxmacro triggered by tex/latex/letltxmacro\letltxmacro.sty
+2023-10-06 23:10:27,611+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:10:27,612+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:10:27,612+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:10:27,994+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:27,994+0300 INFO  pdflatex - mpm: going to download 298537 bytes
+2023-10-06 23:10:27,994+0300 INFO  pdflatex - mpm: going to install 6 file(s) (1 package(s))
+2023-10-06 23:10:28,742+0300 INFO  pdflatex.packagemanager - installing package letltxmacro
+2023-10-06 23:10:28,743+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/letltxmacro.tar.lzma...
+2023-10-06 23:10:28,743+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/letltxmacro.tar.lzma
+2023-10-06 23:10:28,914+0300 INFO  pdflatex - mpm: 0.30 MB, 14.05 Mbit/s
+2023-10-06 23:10:28,925+0300 INFO  pdflatex - mpm: extracting files from letltxmacro.tar.lzma...
+2023-10-06 23:10:29,651+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:10:30,940+0300 INFO  pdflatex - installing package auxhook triggered by tex/latex/auxhook\auxhook.sty
+2023-10-06 23:10:30,940+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:10:30,940+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:10:30,940+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:10:31,310+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:31,310+0300 INFO  pdflatex - mpm: going to download 292852 bytes
+2023-10-06 23:10:31,310+0300 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2023-10-06 23:10:32,074+0300 INFO  pdflatex.packagemanager - installing package auxhook
+2023-10-06 23:10:32,075+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/auxhook.tar.lzma...
+2023-10-06 23:10:32,075+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/auxhook.tar.lzma
+2023-10-06 23:10:32,269+0300 INFO  pdflatex - mpm: 0.29 MB, 12.08 Mbit/s
+2023-10-06 23:10:32,279+0300 INFO  pdflatex - mpm: extracting files from auxhook.tar.lzma...
+2023-10-06 23:10:33,036+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:10:34,348+0300 INFO  pdflatex - installing package refcount triggered by tex/latex/refcount\refcount.sty
+2023-10-06 23:10:34,348+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:10:34,348+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:10:34,348+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:10:34,702+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:34,702+0300 INFO  pdflatex - mpm: going to download 336386 bytes
+2023-10-06 23:10:34,702+0300 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2023-10-06 23:10:35,445+0300 INFO  pdflatex.packagemanager - installing package refcount
+2023-10-06 23:10:35,446+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/refcount.tar.lzma...
+2023-10-06 23:10:35,446+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/refcount.tar.lzma
+2023-10-06 23:10:35,662+0300 INFO  pdflatex - mpm: 0.34 MB, 12.58 Mbit/s
+2023-10-06 23:10:35,672+0300 INFO  pdflatex - mpm: extracting files from refcount.tar.lzma...
+2023-10-06 23:10:36,430+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:10:37,712+0300 INFO  pdflatex - installing package gettitlestring triggered by tex/generic/gettitlestring\gettitlestring.sty
+2023-10-06 23:10:37,712+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:10:37,712+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:10:37,712+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:10:38,073+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:38,074+0300 INFO  pdflatex - mpm: going to download 327428 bytes
+2023-10-06 23:10:38,074+0300 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2023-10-06 23:10:38,829+0300 INFO  pdflatex.packagemanager - installing package gettitlestring
+2023-10-06 23:10:38,830+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/gettitlestring.tar.lzma...
+2023-10-06 23:10:38,830+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/gettitlestring.tar.lzma
+2023-10-06 23:10:39,363+0300 INFO  pdflatex - mpm: 0.33 MB, 4.92 Mbit/s
+2023-10-06 23:10:39,374+0300 INFO  pdflatex - mpm: extracting files from gettitlestring.tar.lzma...
+2023-10-06 23:10:40,108+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:10:41,422+0300 INFO  pdflatex - installing package intcalc triggered by tex/generic/intcalc\intcalc.sty
+2023-10-06 23:10:41,422+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:10:41,422+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:10:41,422+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:10:41,788+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:41,788+0300 INFO  pdflatex - mpm: going to download 441613 bytes
+2023-10-06 23:10:41,788+0300 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2023-10-06 23:10:42,537+0300 INFO  pdflatex.packagemanager - installing package intcalc
+2023-10-06 23:10:42,538+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/intcalc.tar.lzma...
+2023-10-06 23:10:42,538+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/intcalc.tar.lzma
+2023-10-06 23:10:42,962+0300 INFO  pdflatex - mpm: 0.44 MB, 8.35 Mbit/s
+2023-10-06 23:10:42,969+0300 INFO  pdflatex - mpm: extracting files from intcalc.tar.lzma...
+2023-10-06 23:10:43,702+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:10:45,136+0300 INFO  pdflatex - installing package bitset triggered by tex/generic/bitset\bitset.sty
+2023-10-06 23:10:45,136+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:10:45,136+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:10:45,136+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:10:45,505+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:45,505+0300 INFO  pdflatex - mpm: going to download 638837 bytes
+2023-10-06 23:10:45,505+0300 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2023-10-06 23:10:46,252+0300 INFO  pdflatex.packagemanager - installing package bitset
+2023-10-06 23:10:46,253+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/bitset.tar.lzma...
+2023-10-06 23:10:46,253+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/bitset.tar.lzma
+2023-10-06 23:10:46,871+0300 INFO  pdflatex - mpm: 0.64 MB, 8.30 Mbit/s
+2023-10-06 23:10:46,879+0300 INFO  pdflatex - mpm: extracting files from bitset.tar.lzma...
+2023-10-06 23:10:47,629+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:10:48,947+0300 INFO  pdflatex - installing package bigintcalc triggered by tex/generic/bigintcalc\bigintcalc.sty
+2023-10-06 23:10:48,947+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:10:48,947+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:10:48,947+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:10:49,312+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:49,313+0300 INFO  pdflatex - mpm: going to download 478294 bytes
+2023-10-06 23:10:49,313+0300 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2023-10-06 23:10:50,081+0300 INFO  pdflatex.packagemanager - installing package bigintcalc
+2023-10-06 23:10:50,082+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/bigintcalc.tar.lzma...
+2023-10-06 23:10:50,082+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/bigintcalc.tar.lzma
+2023-10-06 23:10:51,039+0300 INFO  pdflatex - mpm: 0.48 MB, 4.00 Mbit/s
+2023-10-06 23:10:51,049+0300 INFO  pdflatex - mpm: extracting files from bigintcalc.tar.lzma...
+2023-10-06 23:10:51,808+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:10:53,135+0300 INFO  pdflatex - installing package rerunfilecheck triggered by tex/latex/rerunfilecheck\rerunfilecheck.sty
+2023-10-06 23:10:53,136+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:10:53,136+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:10:53,136+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:10:53,494+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:53,494+0300 INFO  pdflatex - mpm: going to download 3333 bytes
+2023-10-06 23:10:53,494+0300 INFO  pdflatex - mpm: going to install 2 file(s) (1 package(s))
+2023-10-06 23:10:54,230+0300 INFO  pdflatex.packagemanager - installing package rerunfilecheck
+2023-10-06 23:10:54,231+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/rerunfilecheck.tar.lzma...
+2023-10-06 23:10:54,231+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/rerunfilecheck.tar.lzma
+2023-10-06 23:10:54,285+0300 INFO  pdflatex - mpm: 0.00 MB, 0.50 Mbit/s
+2023-10-06 23:10:54,294+0300 INFO  pdflatex - mpm: extracting files from rerunfilecheck.tar.lzma...
+2023-10-06 23:10:55,019+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:10:56,516+0300 INFO  pdflatex - installing package uniquecounter triggered by tex/generic/uniquecounter\uniquecounter.sty
+2023-10-06 23:10:56,516+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:10:56,516+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:10:56,516+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:10:56,885+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:10:56,885+0300 INFO  pdflatex - mpm: going to download 298441 bytes
+2023-10-06 23:10:56,885+0300 INFO  pdflatex - mpm: going to install 6 file(s) (1 package(s))
+2023-10-06 23:10:57,637+0300 INFO  pdflatex.packagemanager - installing package uniquecounter
+2023-10-06 23:10:57,637+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/uniquecounter.tar.lzma...
+2023-10-06 23:10:57,637+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/uniquecounter.tar.lzma
+2023-10-06 23:10:58,228+0300 INFO  pdflatex - mpm: 0.30 MB, 4.05 Mbit/s
+2023-10-06 23:10:58,236+0300 INFO  pdflatex - mpm: extracting files from uniquecounter.tar.lzma...
+2023-10-06 23:10:58,968+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:11:00,258+0300 INFO  pdflatex - installing package geometry triggered by tex/latex/geometry\geometry.sty
+2023-10-06 23:11:00,258+0300 INFO  pdflatex - mpm: starting package maintenance...
+2023-10-06 23:11:00,258+0300 INFO  pdflatex - mpm: installation directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install
+2023-10-06 23:11:00,258+0300 INFO  pdflatex - mpm: package repository: https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/
+2023-10-06 23:11:00,634+0300 INFO  pdflatex - mpm: package repository digest: 9b13871fb4f7fb5766b5408bb09bd721
+2023-10-06 23:11:00,634+0300 INFO  pdflatex - mpm: going to download 921500 bytes
+2023-10-06 23:11:00,634+0300 INFO  pdflatex - mpm: going to install 8 file(s) (1 package(s))
+2023-10-06 23:11:01,414+0300 INFO  pdflatex.packagemanager - installing package geometry
+2023-10-06 23:11:01,415+0300 INFO  pdflatex - mpm: downloading https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/geometry.tar.lzma...
+2023-10-06 23:11:01,415+0300 INFO  pdflatex.packagemanager - going to download https://mirrors.nxthost.com/ctan/systems/win32/miktex/tm/packages/geometry.tar.lzma
+2023-10-06 23:11:02,249+0300 INFO  pdflatex - mpm: 0.92 MB, 8.85 Mbit/s
+2023-10-06 23:11:02,261+0300 INFO  pdflatex - mpm: extracting files from geometry.tar.lzma...
+2023-10-06 23:11:03,017+0300 INFO  pdflatex.core - start process: miktex fontmaps configure
+2023-10-06 23:11:30,726+0300 INFO  pdflatex - this process (20848) finishes with exit code 1
+2023-10-06 23:13:53,154+0300 INFO  pdflatex - this process (992) started by cmd in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64 with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex
+2023-10-06 23:13:53,154+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:13:53,156+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:13:53,158+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:14:47,695+0300 INFO  pdflatex - this process (992) finishes with exit code 1
+2023-10-06 23:15:38,028+0300 INFO  pdflatex - this process (14668) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:15:38,030+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:15:38,032+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:15:38,034+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:15:38,043+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:18:49,533+0300 INFO  pdflatex - this process (16148) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:18:49,534+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:18:49,536+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:18:49,538+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:18:49,548+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:20:42,207+0300 INFO  pdflatex - this process (5608) started by powershell in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64 with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:20:42,207+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:20:42,209+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:20:42,212+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:20:42,221+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:21:05,387+0300 INFO  pdflatex - this process (15000) started by powershell in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64 with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:21:05,387+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:21:05,389+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:21:05,391+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:21:05,400+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:21:18,831+0300 INFO  pdflatex - this process (20220) started by powershell in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64 with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex
+2023-10-06 23:21:18,831+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:21:18,834+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:21:18,836+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:21:25,906+0300 INFO  pdflatex - this process (20220) finishes with exit code 1
+2023-10-06 23:22:08,964+0300 INFO  pdflatex - this process (13068) started by powershell in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64 with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\pdflatex.exe --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex
+2023-10-06 23:22:08,965+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:22:08,967+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:22:08,969+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:22:08,979+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:22:22,838+0300 INFO  pdflatex - this process (17204) started by powershell in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64 with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\pdflatex.exe --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex
+2023-10-06 23:22:22,838+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:22:22,840+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:22:22,843+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:22:22,853+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:24:03,127+0300 INFO  pdflatex - this process (3004) started by powershell in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64 with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\pdflatex.exe --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex
+2023-10-06 23:24:03,127+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:24:03,129+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:24:03,132+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:24:03,141+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:24:45,444+0300 INFO  pdflatex - this process (21376) started by powershell in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64 with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\pdflatex.exe --output-directory==C:/Users/andre/Desktop/RO2030/CVMaker/Parser C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex
+2023-10-06 23:24:45,445+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:24:45,447+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:24:45,449+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:24:45,459+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:25:37,738+0300 INFO  pdflatex - this process (12236) started by powershell in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64 with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\miktex\bin\x64\pdflatex.exe --output-directory=C:/Users/andre/Desktop/RO2030/CVMaker/Parser C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex
+2023-10-06 23:25:37,739+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:25:37,741+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:25:37,743+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:25:37,752+0300 INFO  pdflatex - setting output directory: C:/Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:25:37,752+0300 INFO  pdflatex - setting aux directory: C:/Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:25:40,658+0300 INFO  pdflatex - this process (12236) finishes with exit code 1
+2023-10-06 23:26:09,129+0300 INFO  pdflatex - this process (14808) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:26:09,130+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:26:09,133+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:26:09,135+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:26:09,148+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:26:09,148+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:26:50,182+0300 INFO  pdflatex - this process (14808) finishes with exit code 1
+2023-10-06 23:27:20,078+0300 INFO  pdflatex - this process (20936) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:27:20,079+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:27:20,081+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:27:20,083+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:27:20,092+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:27:20,092+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:27:23,262+0300 INFO  pdflatex - this process (20936) finishes with exit code 1
+2023-10-06 23:27:23,264+0300 WARN  pdflatex.core - still open: C:/Users/andre/Desktop/RO2030/CVMaker/Parser/MikTex/CV.tex
+2023-10-06 23:27:40,579+0300 INFO  pdflatex - this process (9440) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:27:40,579+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:27:40,581+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:27:40,583+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:27:40,593+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:27:40,593+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:27:41,637+0300 INFO  pdflatex - this process (9440) finishes with exit code 1
+2023-10-06 23:27:41,639+0300 WARN  pdflatex.core - still open: C:/Users/andre/Desktop/RO2030/CVMaker/Parser/MikTex/CV.tex
+2023-10-06 23:28:45,053+0300 INFO  pdflatex - this process (16532) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:28:45,053+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:28:45,055+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:28:45,057+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:28:45,066+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:28:45,066+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:29:02,007+0300 INFO  pdflatex - this process (16532) finishes with exit code 1
+2023-10-06 23:29:02,009+0300 WARN  pdflatex.core - still open: C:/Users/andre/Desktop/RO2030/CVMaker/Parser/MikTex/CV.tex
+2023-10-06 23:29:22,346+0300 INFO  pdflatex - this process (15180) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:29:22,347+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:29:22,349+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:29:22,352+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:29:22,361+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:29:22,361+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:29:26,694+0300 INFO  pdflatex - this process (15180) finishes with exit code 1
+2023-10-06 23:29:43,898+0300 INFO  pdflatex - this process (18504) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:29:43,898+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:29:43,901+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:29:43,903+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:29:43,912+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:29:43,912+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:29:47,096+0300 INFO  pdflatex - this process (18504) finishes with exit code 1
+2023-10-06 23:37:16,278+0300 INFO  pdflatex - this process (9248) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:37:16,278+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:37:16,280+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:37:16,282+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:37:16,292+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:37:16,292+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:37:23,920+0300 INFO  pdflatex - this process (9248) finishes with exit code 1
+2023-10-06 23:39:25,971+0300 INFO  pdflatex - this process (20412) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:39:25,972+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:39:25,974+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:39:25,977+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:39:25,986+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:39:25,986+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:39:31,157+0300 INFO  pdflatex - this process (20412) finishes with exit code 1
+2023-10-06 23:42:13,446+0300 INFO  pdflatex - this process (18416) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:42:13,446+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:42:13,448+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:42:13,450+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:42:13,460+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:42:13,461+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:42:16,548+0300 INFO  pdflatex - this process (18416) finishes with exit code 1
+2023-10-06 23:46:09,067+0300 INFO  pdflatex - this process (21340) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:46:09,067+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:46:09,069+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:46:09,072+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:46:09,081+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:46:09,081+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:46:14,012+0300 INFO  pdflatex - this process (21340) finishes with exit code 1
+2023-10-06 23:47:34,810+0300 INFO  pdflatex - this process (16984) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:47:34,810+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:47:34,812+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:47:34,814+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:47:34,823+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:47:34,824+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:49:00,829+0300 INFO  pdflatex - this process (16984) finishes with exit code 1
+2023-10-06 23:49:00,831+0300 WARN  pdflatex.core - still open: C:/Users/andre/Desktop/RO2030/CVMaker/Parser/MikTex/CV.tex
+2023-10-06 23:49:03,925+0300 INFO  pdflatex - this process (17400) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:49:03,926+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:49:03,928+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:49:03,930+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:49:03,940+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:49:03,940+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:49:07,488+0300 INFO  pdflatex - this process (17400) finishes with exit code 1
+2023-10-06 23:51:31,545+0300 INFO  pdflatex - this process (14144) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:51:31,545+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-06 23:51:31,548+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:51:31,551+0300 INFO  pdflatex - allowing known shell commands
+2023-10-06 23:51:31,561+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:51:31,562+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:51:35,244+0300 INFO  pdflatex - this process (14144) finishes with exit code 1
+2023-10-07 00:11:09,942+0300 INFO  pdflatex - this process (14168) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 00:11:09,942+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-07 00:11:09,944+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-07 00:11:09,947+0300 INFO  pdflatex - allowing known shell commands
+2023-10-07 00:11:09,956+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 00:11:09,956+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 00:11:12,562+0300 INFO  pdflatex - this process (14168) finishes with exit code 1
+2023-10-07 10:31:25,110+0300 INFO  pdflatex - this process (23356) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:31:25,111+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-07 10:31:25,113+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-07 10:31:25,134+0300 INFO  pdflatex - allowing known shell commands
+2023-10-07 10:31:25,144+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:31:25,144+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:31:35,409+0300 INFO  pdflatex - this process (23356) finishes with exit code 1
+2023-10-07 10:32:25,999+0300 INFO  pdflatex - this process (17876) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:32:25,999+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-07 10:32:26,002+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-07 10:32:26,004+0300 INFO  pdflatex - allowing known shell commands
+2023-10-07 10:32:26,013+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:32:26,014+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:32:41,014+0300 INFO  pdflatex - this process (17876) finishes with exit code 1
+2023-10-07 10:33:50,770+0300 INFO  pdflatex - this process (21828) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:33:50,770+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-07 10:33:50,772+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-07 10:33:50,775+0300 INFO  pdflatex - allowing known shell commands
+2023-10-07 10:33:50,784+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:33:50,784+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:33:58,317+0300 INFO  pdflatex - this process (21828) finishes with exit code 1
+2023-10-07 10:34:32,042+0300 INFO  pdflatex - this process (22192) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:34:32,042+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-07 10:34:32,045+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-07 10:34:32,048+0300 INFO  pdflatex - allowing known shell commands
+2023-10-07 10:34:32,058+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:34:32,058+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:34:48,943+0300 INFO  pdflatex - this process (22192) finishes with exit code 1
+2023-10-07 10:34:48,944+0300 WARN  pdflatex.core - still open: C:/Users/andre/Desktop/RO2030/CVMaker/Parser/MikTex/CV.tex
+2023-10-07 10:35:13,601+0300 INFO  pdflatex - this process (22568) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:35:13,602+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-07 10:35:13,604+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-07 10:35:13,606+0300 INFO  pdflatex - allowing known shell commands
+2023-10-07 10:35:13,616+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:35:13,616+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:35:21,883+0300 INFO  pdflatex - this process (22568) finishes with exit code 1
+2023-10-07 10:36:03,247+0300 INFO  pdflatex - this process (22952) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:36:03,248+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-07 10:36:03,250+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-07 10:36:03,252+0300 INFO  pdflatex - allowing known shell commands
+2023-10-07 10:36:03,262+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:36:03,262+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:36:03,914+0300 INFO  pdflatex - this process (22952) finishes with exit code 0
+2023-10-07 10:52:46,782+0300 INFO  pdflatex - this process (11488) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:52:46,783+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-07 10:52:46,785+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-07 10:52:46,787+0300 INFO  pdflatex - allowing known shell commands
+2023-10-07 10:52:46,796+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:52:46,797+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:52:51,964+0300 INFO  pdflatex.core - start process: miktex-makepk --enable-installer --verbose tcrm1095 600 600 1+0/600
+2023-10-07 10:52:55,127+0300 INFO  pdflatex - this process (11488) finishes with exit code 1
+2023-10-07 10:55:34,909+0300 INFO  pdflatex - this process (16272) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:55:34,910+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-07 10:55:34,912+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-07 10:55:34,915+0300 INFO  pdflatex - allowing known shell commands
+2023-10-07 10:55:34,926+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:55:34,926+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-07 10:55:36,541+0300 INFO  pdflatex - this process (16272) finishes with exit code 1

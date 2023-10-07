@@ -13,3 +13,38 @@
 2023-10-06 19:38:25,974+0300 INFO  pdftex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
 2023-10-06 19:38:25,975+0300 INFO  pdftex - allowing known shell commands
 2023-10-06 19:38:25,985+0300 INFO  pdftex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 22:23:26,880+0300 INFO  pdftex - this process (9820) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdftex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 22:23:26,881+0300 INFO  pdftex - running on Windows 10.0.19045
+2023-10-06 22:23:26,883+0300 INFO  pdftex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 22:23:26,884+0300 INFO  pdftex - allowing known shell commands
+2023-10-06 22:23:26,893+0300 INFO  pdftex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 22:27:35,967+0300 INFO  pdftex - this process (19648) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdftex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 22:27:35,967+0300 INFO  pdftex - running on Windows 10.0.19045
+2023-10-06 22:27:35,969+0300 INFO  pdftex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 22:27:35,970+0300 INFO  pdftex - allowing known shell commands
+2023-10-06 22:27:35,979+0300 INFO  pdftex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 22:37:29,641+0300 INFO  pdftex - this process (20756) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdftex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 22:37:29,641+0300 INFO  pdftex - running on Windows 10.0.19045
+2023-10-06 22:37:29,644+0300 INFO  pdftex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 22:37:29,645+0300 INFO  pdftex - allowing known shell commands
+2023-10-06 22:37:29,654+0300 INFO  pdftex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 22:45:26,224+0300 INFO  pdftex - this process (8828) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdftex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 22:45:26,224+0300 INFO  pdftex - running on Windows 10.0.19045
+2023-10-06 22:45:26,227+0300 INFO  pdftex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 22:45:26,228+0300 INFO  pdftex - allowing known shell commands
+2023-10-06 22:45:26,238+0300 INFO  pdftex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 22:58:50,733+0300 INFO  pdftex - this process (16056) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdftex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 22:58:50,734+0300 INFO  pdftex - running on Windows 10.0.19045
+2023-10-06 22:58:50,736+0300 INFO  pdftex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 22:58:50,737+0300 INFO  pdftex - allowing known shell commands
+2023-10-06 22:58:50,747+0300 INFO  pdftex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:00:25,258+0300 INFO  pdftex - this process (3468) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdftex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:00:25,258+0300 INFO  pdftex - running on Windows 10.0.19045
+2023-10-06 23:00:25,260+0300 INFO  pdftex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:00:25,261+0300 INFO  pdftex - allowing known shell commands
+2023-10-06 23:00:25,276+0300 INFO  pdftex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:01:23,055+0300 INFO  pdftex - this process (18232) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdftex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory==C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-06 23:01:23,055+0300 INFO  pdftex - running on Windows 10.0.19045
+2023-10-06 23:01:23,057+0300 INFO  pdftex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-06 23:01:23,058+0300 INFO  pdftex - allowing known shell commands
+2023-10-06 23:01:23,068+0300 INFO  pdftex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\=C:\Users\andre\Desktop\RO2030\CVMaker\Parser

@@ -1,0 +1,6 @@
+2023-10-07 10:52:54,955+0300 INFO  miktex-gftopk - this process (18644) started by miktex-makepk in directory C:\Users\andre\AppData\Local\Temp\mik46726 with command line: miktex-gftopk.exe --miktex-enable-installer --miktex-disable-maintenance --miktex-disable-diagnose tcrm1095.600gf tcrm1095.pk
+2023-10-07 10:52:54,955+0300 INFO  miktex-gftopk - running on Windows 10.0.19045
+2023-10-07 10:52:54,955+0300 INFO  miktex-gftopk - this is MiKTeX-GFTOPK  (MiKTeX 23.10 Portable)
+2023-10-07 10:52:54,959+0300 INFO  miktex-gftopk - this process (18644) finishes with exit code 0
+2023-10-07 10:52:54,959+0300 WARN  miktex-gftopk.core - still open: tcrm1095.600gf
+2023-10-07 10:52:54,959+0300 WARN  miktex-gftopk.core - still open: tcrm1095.pk
