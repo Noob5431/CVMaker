@@ -2,8 +2,29 @@ from bardapi import Bard
 
 import os
 
-os.environ["_BARD_API_KEY"] = "bwgpTplV7I9Ni9mB9MJJ0ig-JG_rgpbeMCq6KJ6gHrvyRFEQu2Mn2JJGfFuKCjgy_ahNaw."
+import re
 
-message = input("Enter Your Prompt:")  
+os.environ["_BARD_API_KEY"] = "bwgpTnZFjZDtLeL1ExJjOb-rOc4i0dubgyL7Z-_VLnzPE7U7z2YxrmQqfQgRp3kYTXWU5Q."
 
-print(Bard().get_answer(str(message))['content'])
+message = input("")  
+
+def find_strings(text):
+  """Finds all strings in a text that start with a • and end before going to the next line.
+
+  Args:
+    text: A string.
+
+  Returns:
+    A list of strings.
+  """
+
+  strings = []
+  for match in re.finditer(r"\•(.*?)\n", text):
+    strings.append(match.group(1))
+  return strings
+
+text = (Bard().get_answer(str(message))['content'])
+
+strings = find_strings(text)
+
+print(strings)
