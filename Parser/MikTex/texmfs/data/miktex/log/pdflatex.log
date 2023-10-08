@@ -537,3 +537,17 @@
 2023-10-07 15:17:47,016+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
 2023-10-07 15:17:47,016+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
 2023-10-07 15:17:48,895+0300 INFO  pdflatex - this process (13960) finishes with exit code 1
+2023-10-08 05:16:16,843+0300 INFO  pdflatex - this process (16008) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-08 05:16:16,844+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-08 05:16:16,848+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-08 05:16:16,870+0300 INFO  pdflatex - allowing known shell commands
+2023-10-08 05:16:16,880+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-08 05:16:16,880+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-08 05:16:23,543+0300 INFO  pdflatex - this process (16008) finishes with exit code 1
+2023-10-08 05:17:56,123+0300 INFO  pdflatex - this process (6960) started by parser in directory C:\Users\andre\Desktop\RO2030\CVMaker\Parser\target\debug with command line: C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-08 05:17:56,124+0300 INFO  pdflatex - running on Windows 10.0.19045
+2023-10-08 05:17:56,126+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-08 05:17:56,128+0300 INFO  pdflatex - allowing known shell commands
+2023-10-08 05:17:56,138+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-08 05:17:56,138+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
+2023-10-08 05:18:11,731+0300 INFO  pdflatex - this process (6960) finishes with exit code 1
