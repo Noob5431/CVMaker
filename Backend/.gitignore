@@ -1,3 +1,5 @@
 .vscode/
 .venv/
 __pycache__/
+chatbot.js
+chatgptsource.html

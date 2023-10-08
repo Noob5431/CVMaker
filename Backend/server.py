@@ -10,11 +10,13 @@ import time
 ##########################################
 app =Flask(__name__)
 
+i=0
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 class Cv_data:
     def __init__(self):
+        
         self.Name = "what is your name"
         self.PhoneNumber = "what is your phone number"
         self.City = "in what city do you live"
@@ -61,6 +63,34 @@ class Cv_data:
         self.ExtraActivity = []
         self.ExtraActivity.append("describe an extracurricular activity")
 
+
+element_names=["Name",
+"PhoneNumber",
+"City",
+"EmailAddress",
+"UniversityCount",
+"UniversityName",
+"FieldOfStudy",
+"StartDate",
+"EndDate",
+"TechnicalSkills",
+"SoftSkills",
+"WorkCount",
+"Workplace",
+"WorkCity",
+"WorkStart",
+"WorkEnd",
+"RoleName",
+"WorkDescription",
+"ProjectCount",
+"ProjectName",
+"ProjectDescription",
+"ExtraActivityCount",
+"ExtraActivity"]
+
+cv_data=Cv_data()
+
+
 @app.route("/")
 def star_site():
     resp = Flask.Response("Foo bar baz")
@@ -85,10 +115,21 @@ def listen(questions):
 @cross_origin(origin='*')
 def userVomit():
     if request.method == 'POST':
-        for x in request.form :
-            data = x
-        print(data)
+        global i
+        if i < len(element_names):
+            for x in request.form :
+                setattr(cv_data,element_names[i],x)
+                i=i+1
+                print(i)
+        else:
+            export_json()
     return  '1'
+
+def export_json():
+    cv_output=json.dumps(cv_data.__dict__)
+    f= open("CV.json","w")
+    f.write(cv_output)
+    f.close()
 
 if __name__ == "__main__":
   # app.run(port=80, debug=True)
