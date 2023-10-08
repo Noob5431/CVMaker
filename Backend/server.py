@@ -25,13 +25,13 @@ class Cv_data:
         #INDEX DE vector
         self.UniversityCount = "do you have a masters degree"
         self.UniversityName = []
-        self.UniversityName.append("what university have you attended or are attendindg")
+#        self.UniversityName.append("what university have you attended or are attendindg")
         self.FieldOfStudy = []
-        self.FieldOfStudy.append("what are you studying or have studied")
+#       self.FieldOfStudy.append("what are you studying or have studied")
         self.StartDate = []
-        self.StartDate.append("in what year did you start your studies")
+#        self.StartDate.append("in what year did you start your studies")
         self.EndDate = []
-        self.EndDate.append("when have you finished your studies or what is your expected graduation year")
+  #      self.EndDate.append("when have you finished your studies or what is your expected graduation year")
         
         self.TechnicalSkills = "what technical skills do you have"
         self.SoftSkills = "what soft skills do you have"
@@ -39,29 +39,29 @@ class Cv_data:
         #INDEX DE vector
         self.WorkCount = "how many jobs have you had"
         self.Workplace = []
-        self.Workplace.append("where did you work at")
+    #    self.Workplace.append("where did you work at")
         self.WorkCity = []
-        self.WorkCity.append("in what city did you work at")
+  #      self.WorkCity.append("in what city did you work at")
         self.WorkStart = []
-        self.WorkStart.append("when did you start working at this company")
+ #       self.WorkStart.append("when did you start working at this company")
         self.WorkEnd = []
-        self.WorkEnd.append("when did you end working at this company")
+    #    self.WorkEnd.append("when did you end working at this company")
         self.RoleName = []
-        self.RoleName.append("what was your role")
+  #      self.RoleName.append("what was your role")
         self.WorkDescription = []
-        self.WorkDescription.append("describe the work you did")
+   #     self.WorkDescription.append("describe the work you did")
         
         #INDEX DE vector
         self.ProjectCount = "how many projects do you want to add to your cv"
         self.ProjectName = []
-        self.ProjectName.append("what is the name of your project")
+ #       self.ProjectName.append("what is the name of your project")
         self.ProjectDescription = []
-        self.ProjectDescription.append("describe the work you did on the project")
+  #      self.ProjectDescription.append("describe the work you did on the project")
         
         #INDEX DE vector
         self.ExtraActivityCount = "how many extracurricular activities do you want to add to your cv"
         self.ExtraActivity = []
-        self.ExtraActivity.append("describe an extracurricular activity")
+  #      self.ExtraActivity.append("describe an extracurricular activity")
 
 
 element_names=["Name",
@@ -89,7 +89,7 @@ element_names=["Name",
 "ExtraActivity"]
 
 cv_data=Cv_data()
-
+print(len(element_names))
 
 @app.route("/")
 def star_site():
@@ -105,6 +105,7 @@ def listen(questions):
         for attr_name, attr_value in vars(questions).items():
             curr_quest = getattr(questions, attr_name)
             #sends curr_quest to eveniment quest
+            print(curr_quest)
             yield f"id: 1\ndata: {curr_quest}\nevent: quest\n\n"
             time.sleep(1)
     return Response(respondToClients(), mimetype= 'text/event-stream')
@@ -118,7 +119,11 @@ def userVomit():
         global i
         if i < len(element_names):
             for x in request.form :
-                setattr(cv_data,element_names[i],x)
+                if(isinstance(getattr(cv_data,element_names[i]), list) ):
+                    print("facut")
+                    getattr(cv_data,element_names[i]).append(x)
+                else:
+                    setattr(cv_data,element_names[i], x )
                 i=i+1
                 print(i)
         else:
