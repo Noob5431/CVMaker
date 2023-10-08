@@ -4,8 +4,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const sendButton = document.getElementById("send-button");
     const chatMessages = document.getElementById("chat-messages");
 
+    document.addEventListener('keyup', function(event) {
+        if (event.code === 'Enter')
+        {
+            event.preventDefault();
+            document.getElementById("send-button").click();
+        }
+    });
+
     sendButton.addEventListener("click", function () {
         const userMessage = inputText.value.trim();
+        
 
         if (userMessage === "") {
             return;

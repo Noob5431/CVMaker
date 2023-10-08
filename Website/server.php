@@ -5,7 +5,7 @@ header('Content-Type: text/event-stream');
 header('Cache-Control: no-cache');
 foreach($_POST as $data => $data){
     //$data=$_POST["userMessage"];
-    echo "data: {$data} \n\n";
 }
+    echo "data: {$data} \n\n";
     flush();
 ?>

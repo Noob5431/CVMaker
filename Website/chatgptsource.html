@@ -2,23 +2,26 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Chatbot</title>
+    <title>CVmaker Chatbot</title>
     <style>
         /* Add your CSS styles here */
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            height: 100%;
+	        margin: 0;
+	        background: #0B2447;
+	        /*background: linear-gradient(rgb(38, 51, 61), rgb(50, 55, 65), rgb(33, 33, 78));*/
         }
 
         .chat-container {
-            max-width: 400px;
+            max-width: 600px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: #19376D;
             border-radius: 5px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            position: absolute bottom;
+            
         }
 
         .message {
@@ -28,23 +31,31 @@
         }
 
         .user-message {
-            background-color: #007bff;
-            color: #fff;
+            background-color: #A5D7E8;
+            color: #000000;
             text-align: right;
+            max-width: 250px;
+            margin-left: auto;
+            margin-right: 10px;
         }
 
         .bot-message {
-            background-color: #e5e5ea;
+            background-color: #576CBC;
             color: #000;
             text-align: left;
+            max-width: 250px;
         }
 
         #input-text {
-            width: 100%;
+            width: 80%; /* Adjust the width as needed */
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
             margin-top: 10px;
+            background-color: #000000;
+            color: #FFFFFF;
+            display: block; /* Make the input a block element for centering */
+            margin: 0 auto;
         }
 
         #send-button {
@@ -54,16 +65,30 @@
             padding: 10px 20px;
             border-radius: 5px;
             cursor: pointer;
+            display: block; /* Make the button a block element for centering */
+            margin: 10px auto; /* Center the button horizontally */
         }
+
+        h1 {
+            font-size: 50px; /* Adjust the font size as needed */
+            font-weight: bold; /* Add font-weight for a bold style */
+            color: #FFFFFF; /* Text color */
+            letter-spacing: 4px; /* Increase letter spacing for a stylish look */
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        
     </style>
 </head>
 <body>
+    <h1><center>CVmaker Chatbot</center></h1>
     <div class="chat-container">
         <!-- Chat messages will be displayed here -->
         <div id="chat-messages"></div>
         <input type="text" id="input-text" placeholder="Type your message...">
         <button id="send-button">Send</button>
     </div>
+    
     <script src="chatbot.js"></script>
 </body>
 </html>
