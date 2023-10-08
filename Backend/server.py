@@ -1,26 +1,19 @@
-from flask import Flask, request, jsonify, render_template
+from gevent import monkey;  monkey.patch_all()
+from flask import Flask, Response, render_template, stream_with_context, send_file, request
+from gevent.pywsgi import WSGIServer
+from flask_cors import CORS, cross_origin
+import json
+import time
 
-import os
-template_dir = os.path.dirname(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
-template_dir = os.path.join(template_dir, 'website')
+##########################################
+#       change routes on everythingh     #
+##########################################
+app =Flask(__name__)
 
-app = Flask(__name__, template_folder=template_dir)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
-
-
-#change path to the site folder  if needed ( site folder ) if the whole os thingh no good
-#app = Flask(__name__, website='../Website')
-
-#access site 
-@app.route('/')
-def main_page():
-    #change file name
-    #change return type if not static for the html
-    return render_template("site.html")        
-
-# /questionRequest is the page you want to insert to change with path
-@app.route('/questionRequest', method=['POST'])
-class Packet:
+class Cv_data:
     def __init__(self):
         self.Name = "what is your name"
         self.PhoneNumber = "what is your phone number"
@@ -67,43 +60,37 @@ class Packet:
         self.ExtraActivityCount = "how many extracurricular activities do you want to add to your cv"
         self.ExtraActivity = []
         self.ExtraActivity.append("describe an extracurricular activity")
-        
 
-# Usage example:
-packet = Packet()
+@app.route("/")
+def star_site():
+    resp = Flask.Response("Foo bar baz")
+    resp.headers['Access-Control-Allow-Origin'] = '*'
+    resp.headers['Access-Control-Allow-Headers'] = '*'
+    return render_template("site.html")
 
-def addToCV(data):
-    print("works")
-    #if CV dosent exist create
-    #else add to CV
-    #based on data add to correct prompt
 
-# /userVommit is the page you want to extract from change with path
-@app.route('/userVommit' , method=['POST'])
-def userVommit():
-    unprocessd_data=request.get_json()
+@app.route("/")
+def listen(questions):
+    def respondToClients(questions):
+        for attr_name, attr_value in vars(questions).items():
+            curr_quest = getattr(questions, attr_name)
+            #sends curr_quest to eveniment quest
+            yield f"id: 1\ndata: {curr_quest}\nevent: quest\n\n"
+            time.sleep(1)
+    return Response(respondToClients(), mimetype= 'text/event-stream')
 
-    #send data to chat ( change name as needed )
-    #process_name(unprocessd_data)
-    data=bardFunc(unprocessd_data)
-    
 
-    addToCV(data)
-    
-    #ask next question prob not needed
-    #next_question=getQuestion()
+#get answers from user
+@app.route('/', methods=['POST'])
+@cross_origin(origin='*')
+def userVomit():
+    if request.method == 'POST':
+        for x in request.form :
+            data = x
+        print(data)
+    return  '1'
 
-    #send next question or end chat
-    """
-    if next_question!= '\n' :
-        return jsonify(next_question)
-    else:
-        print('send pdf')
-    """
-    return render_template("questionRequest.html")
-
-if __name__ == '__main__':
-    app.run()
-    
-    
-    
+if __name__ == "__main__":
+  # app.run(port=80, debug=True)
+  http_server = WSGIServer(("localhost", 5000), app)
+  http_server.serve_forever()
