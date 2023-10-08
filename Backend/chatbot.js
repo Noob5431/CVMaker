@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         xhr.send(userMessage);
     });
 
-    var source = new EventSource("http://localhost:5000");
+    var source = new EventSource("http://localhost:5000/sse");
     source.onmessage = function eventListener(event) {
         simulateBotResponse(event.data);
     }; 

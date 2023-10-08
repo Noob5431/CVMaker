@@ -558,3 +558,17 @@
 2023-10-08 05:26:10,222+0300 INFO  pdflatex - setting output directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
 2023-10-08 05:26:10,223+0300 INFO  pdflatex - setting aux directory: C:\Users\andre\Desktop\RO2030\CVMaker\Parser
 2023-10-08 05:26:12,290+0300 INFO  pdflatex - this process (11744) finishes with exit code 1
+2023-10-08 05:28:09,122+0300 INFO  pdflatex - this process (27068) started by parser in directory C:\Users\wombelbat\Desktop\nume\CVMaker\Parser\target\debug with command line: C:\Users\wombelbat\Desktop\nume\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\wombelbat\Desktop\nume\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\wombelbat\Desktop\nume\CVMaker\Parser
+2023-10-08 05:28:09,122+0300 INFO  pdflatex - running on Windows 10.0.22621
+2023-10-08 05:28:09,124+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-08 05:28:09,138+0300 INFO  pdflatex - allowing known shell commands
+2023-10-08 05:28:09,144+0300 INFO  pdflatex - setting output directory: C:\Users\wombelbat\Desktop\nume\CVMaker\Parser
+2023-10-08 05:28:09,144+0300 INFO  pdflatex - setting aux directory: C:\Users\wombelbat\Desktop\nume\CVMaker\Parser
+2023-10-08 05:28:12,872+0300 INFO  pdflatex - this process (27068) finishes with exit code 1
+2023-10-08 05:28:27,571+0300 INFO  pdflatex - this process (21228) started by parser in directory C:\Users\wombelbat\Desktop\nume\CVMaker\Parser\target\debug with command line: C:\Users\wombelbat\Desktop\nume\CVMaker\Parser\MikTex/texmfs/install/miktex/bin/x64/pdflatex.exe C:\Users\wombelbat\Desktop\nume\CVMaker\Parser\MikTex\CV.tex --output-directory=C:\Users\wombelbat\Desktop\nume\CVMaker\Parser
+2023-10-08 05:28:27,571+0300 INFO  pdflatex - running on Windows 10.0.22621
+2023-10-08 05:28:27,573+0300 INFO  pdflatex - this is MiKTeX-PDFTEX 4.16.0 (1.40.25) (MiKTeX 23.10 Portable)
+2023-10-08 05:28:27,574+0300 INFO  pdflatex - allowing known shell commands
+2023-10-08 05:28:27,580+0300 INFO  pdflatex - setting output directory: C:\Users\wombelbat\Desktop\nume\CVMaker\Parser
+2023-10-08 05:28:27,580+0300 INFO  pdflatex - setting aux directory: C:\Users\wombelbat\Desktop\nume\CVMaker\Parser
+2023-10-08 05:28:28,927+0300 INFO  pdflatex - this process (21228) finishes with exit code 1
