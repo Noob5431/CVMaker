@@ -49,7 +49,8 @@ fn main()
     let mut project_description : String = "default  owirhqoi hgiodshgeoh io oehwtioewhig heiogthwow hqwoihroqirh paojfo".to_string();
     let mut extra_activity : String = "Write blog posts about best practices".to_string();
     //read json packet
-    let json_path : String = "C:\\Users\\andre\\Desktop\\RO2030\\CVMaker\\Parser\\JSON_test.txt".to_string();
+    let mut json_path  = project_root::get_project_root().unwrap();
+    json_path.push("CV.json");
     let json_code = fs::read_to_string(json_path).expect("could not read file");
 
     let packet : Packet = serde_json::from_str(&json_code).unwrap();

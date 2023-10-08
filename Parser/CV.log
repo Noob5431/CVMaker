@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10 Portable) (preloaded format=pdflatex 2023.10.6)  8 OCT 2023 05:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10 Portable) (preloaded format=pdflatex 2023.10.6)  8 OCT 2023 05:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,7 +6,7 @@ entering extended mode
 (C:/Users/andre/Desktop/RO2030/CVMaker/Parser/MikTex/CV.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
-(C:\Users\andre\Desktop\RO2030\CVMaker\Parser\resume.cls
+(resume.cls
 Document Class: resume 2010/07/10 v0.9 Resume class
 
 (C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\tex/latex/b
@@ -251,8 +251,7 @@ eometry\geometry.cfg))
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count274
 \l__pdf_internal_box=\box53
-)
-(C:\Users\andre\Desktop\RO2030\CVMaker\Parser\CV.aux)
+) (CV.aux)
 \openout1 = `CV.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -306,8 +305,7 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 (C:\Users\andre\Desktop\RO2030\CVMaker\Parser\MikTex\texmfs\install\tex/latex/g
 raphics\mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 8.
- (C:\Users\andre\Desktop\RO2030\CVMaker\Parser\CV.out)
-(C:\Users\andre\Desktop\RO2030\CVMaker\Parser\CV.out)
+ (CV.out) (CV.out)
 \@outlinefile=\write3
 \openout3 = `CV.out'.
 
@@ -371,7 +369,7 @@ l.21                 \end{itemize}\end{rSection}
 [1
 
 {C:/Users/andre/Desktop/RO2030/CVMaker/Parser/MikTex/texmfs/data/fonts/map/pdft
-ex/pdftex.map}] (C:\Users\andre\Desktop\RO2030\CVMaker\Parser\CV.aux)
+ex/pdftex.map}] (CV.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -381,7 +379,7 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  8767 strings out of 475247
- 140700 string characters out of 5747390
+ 140475 string characters out of 5747390
  1923785 words of memory out of 5000000
  30210 multiletter control sequences out of 15000+600000
  562409 words of font info for 50 fonts, out of 8000000 for 9000
